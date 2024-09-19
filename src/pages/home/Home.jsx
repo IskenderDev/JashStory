@@ -7,13 +7,37 @@ const Home = () => {
     <>
       <Header />
       <MainInfo />
-      <div className="grid grid-cols-3 gap-6 px-6 py-6 mx-[160px]">
-        <Card img='/src/assets/picture1.svg' text='“Революционные техники в творчестве Джуди Чикаго”' price={'1500'} />
-        <Card img='/src/assets/picture1.svg' text='“Революционные техники в творчестве Джуди Чикаго”' price={'1500'} />
-        <Card img='/src/assets/picture1.svg' text='“Революционные техники в творчестве Джуди Чикаго”' price={'1500'} />
-        <Card img='/src/assets/picture1.svg' text='“Революционные техники в творчестве Джуди Чикаго”' price={'1500'} />
-        <Card img='/src/assets/picture1.svg' text='“Революционные техники в творчестве Джуди Чикаго”' price={'1500'} />
-        <Card img='/src/assets/picture1.svg' text='“Революционные техники в творчестве Джуди Чикаго”' price={'1500'} />
+      <div className="flex flex-wrap gap-11 justify-center mt-11">
+        <Card
+          img="/src/assets/picture1.svg"
+          text="“Революционные техники в творчестве Джуди Чикаго”"
+          price={"1500"}
+        />
+        <Card
+          img="/src/assets/picture1.svg"
+          text="“Революционные техники в творчестве Джуди Чикаго”"
+          price={"1500"}
+        />
+        <Card
+          img="/src/assets/picture1.svg"
+          text="“Революционные техники в творчестве Джуди Чикаго”"
+          price={"1500"}
+        />
+        <Card
+          img="/src/assets/picture1.svg"
+          text="“Революционные техники в творчестве Джуди Чикаго”"
+          price={"1500"}
+        />
+        <Card
+          img="/src/assets/picture1.svg"
+          text="“Революционные техники в творчестве Джуди Чикаго”"
+          price={"1500"}
+        />
+        <Card
+          img="/src/assets/picture1.svg"
+          text="“Революционные техники в творчестве Джуди Чикаго”"
+          price={"1500"}
+        />
       </div>
     </>
   );
