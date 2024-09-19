@@ -1,3 +1,4 @@
+import Card from "./components/card/Card"
 import Home from "./pages/home/Home"
 
 const App = () => {
