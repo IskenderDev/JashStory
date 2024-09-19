@@ -1,0 +1,6 @@
+.mainDiv{
+    background-image: url('/src/assets/mainBg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    @apply flex flex-col items-center h-screen mx-[8%] items-center;
+}
