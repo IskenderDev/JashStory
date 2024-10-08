@@ -1,3 +1,4 @@
+import Footer from "../../../components/footer/Footer";
 import Header from "../../../components/header/Header";
 import Info from "./info/Info";
 import NewsCom from "./newsCom/NewsCom";
@@ -8,6 +9,7 @@ const News = () => {
       <Header />
       <Info />
       <NewsCom/>
+      <Footer/>
     </>
   );
 };
